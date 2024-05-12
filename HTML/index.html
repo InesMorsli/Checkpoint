@@ -3,36 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Checkpoint N°2</title>
 </head>
 <body>
     <!-- Nav bar -->
     <nav>
         <div>
-            <img src=""alt="logo">
+            <img width=50px height=50px src="../RES/cv.png"alt="logo">
         </div>
         <div>
-            <div>
+            <form>
+                <label>Username:</label>
+                <input type="text" name="Username" placeholder="Type your username">
+                <br>
+                <label>Password:</label>
+                <input type="password" name="Password" placeholder="Type your password">
+                <br>
+                <button type="submit">Login</button>
+                <button>Signup</button>
+            </form>
+        </div>
+         <div>
                 <Ul>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Work">Work</a></li>
                     <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Bonus">Bonus</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </Ul>
-            </div> 
-           <!-- About -->
+         </div> 
+         <div>
+            <select>
+                <option value="About">About</option>
+                <option value="Work">Work</option>
+                <option value="Resume">Resume</option>
+                <option value="Contact">Contact</option>
+            </select>
+         </div>
+         <br>
+         <form>
+            <label>Search</label>
+            <input type="text" name="Search bar" placeholder="Search bar">
+         </form>
+     <!-- About section-->
     <section id="About">
-      
-        <!-- description div-->
-        <div>
             <h1>About me </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facilis non exercitationem eligendi officia ut magni consequatur ad. Consequatur est reiciendis provident doloribus quasi dolorem explicabo quos rerum quam maxime.</p>  
-
-        </div>
-        <!-- Vid div -->
-        <div>
-            <img src="" alt="exemple">
-        </div>
     </section>
+
+     <!-- Work section -->
+     <section id="Work">
+        <div>
+            <h1>About my work</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam ex magni, libero sint natus exercitationem nostrum iusto aliquam eaque autem officiis itaque suscipit fugit, voluptas similique vitae, adipisci numquam minus!</p>
+            <h5>Some of my achievements:</h5>
+            <ul type="square">
+                <li> achievement 1</li>
+                <li> achievement 2</li>
+                <li> achievement 3</li>
+            </ul>
+        </div>
+     </section>
+
+     <!-- Resume section -->
+     <section id="Resume">
+        <h1>My resume</h1>
+        <dl>
+            <dt>Education:</dt>
+                <dd>- Baccalauréat </dd>
+                <dd>- University</dd>
+            
+            <dt>Work experience:</dt>
+            <dd>- Job 1</dd>
+            <dd>- Job 2</dd>
+
+            <dt>Skills:</dt>
+            <dd>- Skill 1</dd>
+            <dd>- Skill 2</dd>
+            <dd>- Skill 3</dd>
+        </dl>
+     </section>
+
+     <!-- Bonus section -->
+     <section id="Bonus">
+        <h1>About this checkpoint</h1>
+        <p>Here's a brief summary about what it HTML.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xKuJrmlCdig?si=hUTVIzX4QBOKHruN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </section>
+
+     <!-- Contact section --> 
+     <footer id="Contact">
+        <h1>Contact me</h1>
+        <div>
+            <ul>
+                <li>Email: email@gmail.com</li>
+                <li>Phone: +2136123458791</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Socials:</h3>
+        
+            <a href="https://facebook.com/"><img width=50px height=50px src="../RES/facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com/"><img width=50px height=50px src="../RES/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/?lang=fr"><img width=50px height=50px src="../RES/twitter.png" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/"><img width=50px height=50px src="../RES/linkedin.png" alt="Linkedin"></a>
+           
+        </div>
+
+     </footer>
 </body>
 </html>
