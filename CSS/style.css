@@ -1,0 +1,48 @@
+
+body{
+    font-family:'Roboto';
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h1{
+    text-decoration: underline;
+    color: #64056e;
+}
+
+nav li{
+    display: inline;
+    margin-right: 200px;
+    padding-left: 10px;
+    font-size: 17px;
+    float: left;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:#dbb0e0
+}
+/* nav bar */
+nav div{
+    display: inline-block;
+}
+nav{
+    background-color: #d395da;
+    padding: 10px;
+}
+
+.navdisplay{
+    display: inline-block;
+}
+#search{
+    margin-left: 1200px;
+}
+
+
+footer{
+    background-color: #d395da;
+}
